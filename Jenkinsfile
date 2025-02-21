@@ -22,7 +22,7 @@ pipeline {
 
                 # TODO Complete the command to run pytest
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
-                conda activate mlip
+                /home/xiaol4/miniconda3/bin/conda activate mlip
                 pytest || exit 1
 
                 echo 'pytest not runned'
