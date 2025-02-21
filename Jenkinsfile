@@ -16,7 +16,7 @@ pipeline {
                 echo 'Test Step: We run testing tool like pytest here'
 
                 # TODO fill out the path to conda here
-                sudo chmod +x /home/xiaol4/miniconda3/etc/profile.d/conda.sh
+                #sudo /home/xiaol4/miniconda3/etc/profile.d/conda.sh
 
 
                 # TODO Complete the command to run pytest
